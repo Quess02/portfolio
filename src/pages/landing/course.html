@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" class="text-gray-900 antialiased leading-tight">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+      <!-- Css -->
+      <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+      <!-- Main Css -->
+      <link href="assets/libs/%40iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+      <link rel="stylesheet" href="assets/css/icons.css" />
+      <link rel="stylesheet" href="assets/css/tailwind.min.css" />
+      <link rel="stylesheet" href="./TAILWIND/tailwind-all.css">
+      <link rel="stylesheet" href="src/css/style.css">
+
+</head>
+<body class="min-h-screen bg-gray-100">
+    <div class="wrapper">
+        <!--start of navbar-->
+         <!-- Start Navbar -->
+        <nav id="topnav" class="defaultscroll is-sticky">
+            <div class="flex container">
+                <!-- Logo container-->
+                <a class="logo w-7/12 ltr:pl-0 rtl:pr-0" href="index.html">
+                    <img src="assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
+                    <img src="assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
+                </a>
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class=" navigation-menu">
+                        <li><a href="index.html" class="sub-menu-item">Home</a></li>
+                        <li class="has-submenu parent-parent-menu-item"><a href="#about">About</a></li>
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="./src/pages/projects.html">Project</a></li>            
+                        <li><a href="#contact" class="sub-menu-item">Contact</a></li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </nav><!--end header-->
+        <!-- End Navbar -->
+        <!--end of nav bar-->
+        <main class="main  h-screen">
+            <!--start of brief-->
+            <div class="h-full skewed flex justify-center bg-white section">
+                <div class=" s flex items-center w-10/12 lg:w-3/6 text-center  ">
+                    <div>
+                        <div class="flex justify-center"> <img src="./src/img/dp.JPG" class="w-32 h-32 rounded-full" alt=""> </div>
+                        <div class="text-center text-purple-800 text-md font-medium uppercase mt-4">Fullstack Developer</div>
+                        <div class="text-4xl lg:text-5xl font-bold text-purple-800">TAWANDA KANDA</div>
+                        <div class="flex justify-center text-lg md:text-xl mt-4 leading-relaxed lg:mt-10  text-center font-normal text-gray-700">
+                            Welcome!Find a variety of projects that showcase
+                           my skills and ability as a developer.
+                        </div>
+                        <a href="#project">
+                            <button class="transition ease-in duration-700 bg-indigo-600 hover:bg-indigo-700 text-white font-bold font-bold mt-12 w-64 py-4 px-4 rounded">
+                                PROJECTS
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <!--end of brief-->
+            <div class="relative">
+                <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white">
+                    <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
+                        <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                    </svg>
+                </div>
+            </div>
+             <!--start of about-->
+            <div id="about" class=" flex justify-center bg-white section ">
+                <div class="flex items-start py-24 w-11/12   ">
+                    <div>
+                        <div>
+                            <h1 class="text-3xl lg:text-4xl  text-center font-bold text-indigo-600">ABOUT ME</h1>
+                            <hr class="w-32 block mx-auto h-1 mt-4 rounded-md bg-indigo-600">
+
+                            <p class=" text-md md:text-lg lg:text-xl  mb-16 md:mb-24 leading-relaxed lg:mt-8  text-center font-normal text-gray-700/50">
+                                A fullstack focused Web Developer building both the Frontend and Backend of Websites 
+                                and Web Applications that leads to the success of the overall product
+                            </p>
+                        </div> 
+                        <!--start of Bio-->
+                        <div class="block lg:flex ">
+                            <div class="w-12/12 lg:w-3/5 flex justify-start ">
+                                <div class="lg:pr-20">
+                                    <h1 class="text-xl mb-4 text-indigo-600 font-bold lg:text-2xl ">Get to know me!</h1>
+                                    <div class="flex text-start  text-gray-700/50 justify-start font-normal text-md leading-relaxed ">
+                                       <div>
+                                        I'm a fullstack Web Developer focused in building both the Frontend and 
+                                        Backend of Websites and Web Applications that leads to the success of the overall product.
+                                        Check out some of my work in the Projects section.<br><br>
+
+                                        I have participated in a number of intense programs where I acquired high level skills.I have also acquired 
+                                        skills from renowed online platforms like HackerRank.I have experience in maintaning and developing websites
+                                        and web applications.I am also proficient in a varietyof programming languages and frameworks.
+                                        I am a hardworking web developer with strong disclipline to learn,improve and evolve.<br><br>
+                                        
+                                        I'm open to Job opportunities where I can contribute, learn and grow. 
+                                        If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+                                      
+                                       
+                                       </div> 
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="w-12/12 lg:w-2/5  mb-4">
+                                <div class="flex justify-start ">
+                                    <div>
+                                        <h1 class="text-xl font-bold lg:text-2xl text-indigo-600 mb-4">My Skills</h1>
+                                    <div class="">
+                                        <div class="bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded inline-flex items-center">
+                                            <span>HTML</span>
+                                        </div>
+                                        <div class="bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded inline-flex items-center">
+                                            <span>JavaScript</span>
+                                        </div>
+                                        <div class="bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded inline-flex items-center">
+                                            <span>Node JS</span>
+                                        </div>
+                                        <div class="mt-2 bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded inline-flex items-center">
+                                            <span>JQuery</span>
+                                        </div>
+                                        <div class="bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded inline-flex items-center">
+                                            <span>SQL</span>
+                                        </div>
+                                        <div class="bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded inline-flex items-center">
+                                            <span>JAVA</span>
+                                        </div>
+                                        <div class="bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded inline-flex items-center">
+                                            <span>CSS</span>
+                                        </div>
+                                        <div class="bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded inline-flex items-center">
+                                            <span>Express</span>
+                                        </div>
+                                        <div class="mt-2 bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded inline-flex items-center">
+                                            <span>AJAX</span>
+                                        </div>
+                                        <div class="mt-2 bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded inline-flex items-center">
+                                            <span>MongoDB</span>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="mt-4">
+                                      <!--Education-->
+                                      <div> 
+                                        <h1 class="font-medium text-indigo-600 mt-2">Education:</h1>
+                                        <div>
+                                            <p>Bachelor of Science in Computer Science</p>
+                                            <p> University of Botswana (2017-2022)</p>
+
+                                        </div>
+                                        <div class="my-2">
+                                            <a href="https://www.hackerrank.com/Certificates/fcd219f340a7" target="_blank">
+                                                <p>SQL (Basic) Certificate</p>
+                                                <p> Hacker Rank (2022)</p>
+                                            </a>
+                                            
+
+                                        </div>
+                                        <div class="my-2 ">
+                                            <a href="https://www.hackerrank.com/Certificates/d9f0ce041823" target="_blank">
+                                                <p>JavaScript (Basic) Certificate</p>
+                                                <p> Hacker Rank (2022)</p>
+                                            </a>
+                                            
+
+                                        </div>
+                                    </div>
+                                    <!--End Education-->
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!--end of Bio-->
+                    </div> 
+                </div>
+            </div>
+            <!--end of about-->
+            <!--Start of projects-->
+            <div id="project" class="flex justify-center bg-gray-100 section ">
+                <div class="ss flex items-start py-24   ">
+                    <div>
+                        <div class="sss">
+                            <h1 class="text-3xl lg:text-4xl   text-center font-bold text-indigo-600">PROJECT OVERVIEW</h1>
+                            <hr class="w-32 block mx-auto h-1 mt-4 rounded-lg bg-indigo-600">
+                            <p class=" text-md md:text-lg lg:text-xl  mb-16 md:mb-24 leading-relaxed lg:mt-8  text-center font-normal text-gray-700">
+                                Here you will find some of the personal and clients projects that 
+                                I created with each project containing its own case study
+                            </p>
+                        </div>
+                        <!--Start of projects panel-->
+                        <div class="w-full lg:flex">
+                            <div class="md:w-12/12 max-w-sm mt-4 lg:mx-2 rounded bg-white overflow-hidden shadow-lg">
+                                <img class="w-full h-64" src="./assets/images/studio/work6.jpg" alt="Sunset in the mountains">
+                                <div class="px-6 py-4">
+                                  <div class="font-bold text-xl text-purple-800 mb-2">Tuition Academy Landing Page</div>
+                                  <p class="text-gray-700 text-base">
+                                    A landing page design for tuition academy that offers various courses.Made with Js,Tailwind CSS and HTML 5
+                                  </p>
+                                </div>
+                                <div class="px-6 py-4">
+                                    <button class="transition ease-in duration-700 bg-indigo-600 hover:bg-indigo-700 text-white font-bold font-bold w-full py-4 rounded">
+                                        <a href="./src/pages/landing/course.html" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="max-w-sm mt-4 lg:mx-2 rounded bg-white overflow-hidden shadow-lg">
+                                <img class="w-full h-64" src="./assets/images/studio/work6.jpg" alt="Sunset in the mountains">
+                                <div class="px-6 py-4">
+                                  <div class="font-bold text-purple-800 text-xl mb-2">Chat App UI</div>
+                                  <p class="text-gray-700 text-base">
+                                    UI Interface for a social chat app.Made with HTML 5,CSS 3 and JavaScript.Toggle between different themes.
+                                  </p>
+                                </div>
+                                <div class="px-6 py-4">
+                                    <button class="transition ease-in duration-700 bg-indigo-600 hover:bg-indigo-700 text-white font-bold font-bold w-full py-4 rounded">
+                                        <a href="./src/static/chatApp/index.html" target="_blank" >Live Demo</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="md:w-12/12 max-w-sm mt-4 lg:mx-2 rounded bg-white overflow-hidden shadow-lg">
+                                <img class="w-full h-auto" src="./assets/images/studio/work6.jpg" alt="Sunset in the mountains">
+                                <div class="px-6 py-4">
+                                  <div class="font-bold text-xl text-purple-800 mb-2">Portfolio</div>
+                                  <p class="text-gray-700 text-base">
+                                    A web developer Portfolio made with HTML 5,Tailwind CSS and JavaScript.Developer showcase thier skills and development work.
+                                  </p>
+                                </div>
+                                <div class="px-6 py-4">
+                                    <button class="transition ease-in duration-700 bg-indigo-600 hover:bg-indigo-700 text-white font-bold font-bold w-full py-4 rounded">
+                                        <a href="./index.html" target="_blank" >Live Demo</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end of projects panel-->
+                    </div>
+                </div>
+            </div>         
+            <!--End of projects-->
+
+               <!-- Start contact-->
+        <section id="contact" class="relative md:py-24 py-16 ">
+            <div class="absolute inset-0 bg-white"></div>
+            <div class="container">
+                <div class="grid lg:grid-cols-12 md:grid-cols-2 items-center gap-[30px]">
+                    <div class="lg:col-span-7">
+                        <h4 class="font-semibold lg:leading-normal leading-normal text-3xl lg:text-4xl mb-5 text-indigo-600">Connect with me.</h4>
+                
+                        <p class="text-indigo-600/70 text-lg max-w-xl">Feel free to contact me and benefit from my expertise on the development of your next project.</p>
+                    
+                    </div>
+
+                    <div class="lg:col-span-5">
+                        <div class="bg-white dark:bg-slate-900 rounded-xl shadow dark:shadow-gray-800 md:p-8 p-6 ltr:lg:ml-10 rtl:lg:mr-10 z-10 relative">
+                            <h4 class="mb-5 text-2xl font-semibold">Connect Now</h4>
+
+                            <form>
+                                <div class="grid grid-cols-1">
+                                    <div class="mb-5">
+                                        <label class="form-label font-medium">Your Name : <span class="text-red-600">*</span></label>
+                                        <div class="form-icon relative mt-2">
+                                            <i data-feather="user" class="w-4 h-4 absolute top-3 ltr:left-4 rtl:right-4"></i>
+                                            <input type="text" class="form-input ltr:pl-12 rtl:pr-12" placeholder="Name" name="name" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-5">
+                                        <label class="form-label font-medium">Your Email : <span class="text-red-600">*</span></label>
+                                        <div class="form-icon relative mt-2">
+                                            <i data-feather="mail" class="w-4 h-4 absolute top-3 ltr:left-4 rtl:right-4"></i>
+                                            <input type="email" class="form-input ltr:pl-12 rtl:pr-12" placeholder="Email" name="email" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-5">
+                                        <label class="form-label font-medium">Message : <span class="text-red-600">*</span></label>
+                                        <div class="form-icon relative mt-2">
+                                            <i data-feather="phone" class="w-4 h-4 absolute top-3 ltr:left-4 rtl:right-4"></i>
+                                            <textarea name="message" id="message"  class="h-24 form-input ltr:pl-12 rtl:pr-12" placeholder="Write your message..." required></textarea>
+                                        </div>
+                                    </div>
+                                    
+                                    <div>
+                                        <a href="#" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md w-full">Send Email</a>
+                                    </div>
+                                </div><!--end grid-->
+                            </form>
+                            <!-- end form -->
+                        </div>
+                    </div>
+                </div><!--end grid-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- end contact -->
+             <!-- Footer Start -->
+        <footer class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">    
+            <div class="container">
+                <div class="grid grid-cols-12">
+                    <div class="col-span-12">
+                        <div class="py-[60px] px-0">
+                            <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
+                                <div class="lg:col-span-7 md:col-span-12">
+                                    <a href="#" class="text-[22px] text-white font-bold uppercase focus:outline-none">
+                                        Tawanda Kanda
+                                    </a>
+                                    <p class="mt-6 text-gray-300">Fullstack web developer focused in building Web Applications that leads to the success of the overall product</p>
+                                    <ul class="list-none mt-6">
+                                        <li class="inline"><a href="http://github.com/quess02" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-github" title="github"></i></a></li>
+                                        <li class="inline"><a href="http://www.linkedin.com/in/tkanda0211" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-linkedin" title="Linkedin"></i></a></li>
+                                        <li class="inline"><a href="https://www.facebook.com/quessmusik02" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
+                                        <li class="inline"><a href="mailto:tkanda02@gmail.com" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
+                                    </ul><!--end icon-->
+                                </div><!--end col-->
+                        
+                                <div class="lg:col-span-2 md:col-span-4">
+                                    <h5 class="tracking-[1px] text-gray-100 font-semibold">Pages</h5>
+                                    <ul class="list-none footer-list mt-6">
+                                        <li><a href="#" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> About me</a></li>
+                                        <li class="mt-[10px]"><a href="#" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Projects</a></li>
+                                        <li class="mt-[10px]"><a href="#" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Contact</a></li>
+                                       
+                                    </ul>
+                                </div><!--end col-->
+                        
+                               
+    
+                                <div class="lg:col-span-3 md:col-span-4">
+                                    <h5 class="tracking-[1px] text-gray-100 font-semibold">Contact</h5>
+                                    <ul class="list-none mt-6">
+                                        <li class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Tawanda Kanda</li>
+                                        <li class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Whatsapp: 77810155</li>
+                                        <li class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Address: P O BOX 601509</li>
+                                        <li class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out" >Gaborone West</li>
+                                    </ul>
+                                   
+                                    
+                                    
+                                </div><!--end col-->
+                            </div><!--end grid-->
+                        </div><!--end col-->
+                    </div>
+                </div><!--end grid-->
+            </div><!--end container-->
+
+            <div class="py-[30px] px-0 border-t border-slate-800">
+                <div class="container text-center">
+                    <div class="items-center">
+                        <div class="text-center">
+                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Developed by Tawanda Kanda.</p>
+                        </div>
+                    </div><!--end grid-->
+                </div><!--end container-->
+            </div>
+        </footer><!--end footer-->
+        <!-- Footer End -->
+        </main>
+        
+    </div>
+    
+    <script src="./assets/js/app.js"></script>
+    <script src="/assets/js/easy_background.js"></script>
+    <script src="/assets/js/plugins.init.js"></script>
+</body>
+</html>
