@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" class="text-gray-900 antialiased leading-tight">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+      <!-- favicon -->
+      <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
+
+      <!-- Css -->
+      <link href="../../assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+      <!-- Main Css -->
+      <link href="../../assets/libs/%40iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+      <link rel="stylesheet" href="assets/css/icons.css" />
+      <link rel="stylesheet" href="../../assets/css/tailwind.min.css" />
+      <link rel="stylesheet" href="../../TAILWIND/tailwind-all.css">
+      <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body class="min-h-screen bg-gray-100">
+    <div class="wrapper">
+        <!--start of navbar-->
+         <!-- Start Navbar -->
+        <nav id="topnav" class="defaultscroll is-sticky">
+            <div class="flex container">
+                <!-- Logo container-->
+                <a class="logo w-7/12 ltr:pl-0 rtl:pr-0" href="index.html">
+                    <img src="assets/images/logo-dark.png" class="inline-block dark:hidden" alt="">
+                    <img src="assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
+                </a>
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class=" navigation-menu">
+                        <li><a href="../../index.html" class="sub-menu-item">Home</a></li>
+                        <li class=" parent-parent-menu-item"><a href="#about">About</a></li>
+                        <li class="parent-parent-menu-item"><a href="projects.html">Project</a></li>            
+                        <li><a href="#contact" class="sub-menu-item">Contact</a></li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </nav><!--end header-->
+        <!-- End Navbar -->
+        <!--end of nav bar-->
+        <main class="main">
+      
+        <div class="relative">
+            <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-indigo-600">
+                <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+  <!-- START -->
+  <section class="relative bg-indigo-600 py-16">
+    <div class="container">
+        <div>
+            <h1 class="text-3xl lg:text-4xl  text-center font-bold text-white">FEATURED PROJECTS</h1>
+            <hr class="w-32 block mx-auto h-1 my-4 rounded-md bg-white">
+        </div> 
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+            <div class="md:w-12/12 max-w-sm mt-4 lg:mx-2 rounded bg-white overflow-hidden shadow-lg">
+                <img class="w-full h-64" src="../../assets/images/studio/work6.jpg" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl text-purple-800 mb-2">Tuition Academy Landing Page</div>
+                  <p class="text-gray-700 text-base">
+                    A landing page design for tuition academy that offers various courses.Made with Js,Tailwind CSS and HTML 5
+                  </p>
+                </div>
+                <div class="px-6 py-4">
+                    <button class="transition ease-in duration-700 bg-indigo-600 hover:bg-indigo-700 text-white font-bold font-bold w-full py-4 rounded">
+                        <a href="../pages/landing/course.html" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                    </button>
+                </div>
+            </div>
+            <div class="max-w-sm mt-4 lg:mx-2 rounded bg-white overflow-hidden shadow-lg">
+                <img class="w-full h-64" src="../../assets/images/studio/work6.jpg" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-purple-800 text-xl mb-2">Chat App UI</div>
+                  <p class="text-gray-700 text-base">
+                    UI Interface for a social chat app.Made with HTML 5,CSS 3 and JavaScript.Toggle between different themes.
+                  </p>
+                </div>
+                <div class="px-6 py-4">
+                    <button class="transition ease-in duration-700 bg-indigo-600 hover:bg-indigo-700 text-white font-bold font-bold w-full py-4 rounded">
+                        <a href="../static/chatApp/index.html" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                    </button>
+                </div>
+            </div>
+            <div class="md:w-12/12 max-w-sm mt-4 lg:mx-2 rounded bg-white overflow-hidden shadow-lg">
+                <img class="w-full h-auto" src="../../assets/images/studio/work6.jpg" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl text-purple-800 mb-2">Portfolio</div>
+                    <p class="text-gray-700 text-base">
+                      A web developer Portfolio made with HTML 5,Tailwind CSS and JavaScript.Developer showcase thier skills and development work.
+                    </p>
+                  </div>
+                <div class="px-6 py-4">
+                    <button class="transition ease-in duration-700 bg-indigo-600 hover:bg-indigo-700 text-white font-bold font-bold w-full py-4 rounded">
+                        <a href="../../index.html" target="_blank" >Live Demo</a>
+                    </button>
+                </div>
+            </div>
+           
+        </div><!--end grid-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End -->
+<div class="relative">
+    <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-gray-100">
+        <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
+            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+</div>
+
+ <!-- START -->
+ <section class="relative bg-gray-100 py-10">
+    <div class="container">
+        <div>
+            <h1 class="text-3xl lg:text-4xl  text-center font-bold text-indigo-600">Components</h1>
+            <hr class="w-32 block mx-auto h-1 my-4 rounded-md bg-indigo-600">
+        </div> 
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+            <div class="md:w-12/12 max-w-sm mt-4 lg:mx-2 rounded bg-white overflow-hidden shadow-lg">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl text-purple-800 mb-2">Basic Login UI </div>
+                  <p class="text-gray-700 text-base">
+                    Basic User authentication form UI.Made with CSS 3 and HTML.
+                  </p>
+                </div>
+                <div class="px-6 py-4">
+                    <button class="transition ease-in duration-700 bg-indigo-600 hover:bg-indigo-700 text-white font-bold font-bold w-full py-4 rounded">
+                        <a href="../static/login/index.html" target="_blank">Live Demo</a>
+                    </button>
+                </div>
+            </div>
+            <div class="md:w-12/12 max-w-sm mt-4 lg:mx-2 rounded bg-white overflow-hidden shadow-lg">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl text-purple-800 mb-2">Music Player UI</div>
+                  <p class="text-gray-700 text-base">
+                    Modern Dark themed music player user interface,with controls.Made with AmplitudeJs,Tailwind CSS and HTML
+                  </p>
+                </div>
+                <div class="px-6 py-4">
+                    <button class="transition ease-in duration-700 bg-indigo-600 hover:bg-indigo-700 text-white font-bold font-bold w-full py-4 rounded">
+                        <a href="../static/musicPlayer/index.html"target="_blank">Live Demo</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="md:w-12/12 max-w-sm mt-4 lg:mx-2 rounded bg-white overflow-hidden shadow-lg">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl text-purple-800 mb-2">Tic-Tax-Toe</div>
+                    <p class="text-gray-700 text-base">
+                        A classic 3 X 3 tic-tac-toe game.Made with HTML 5 and CSS only.
+                    </p>
+                </div>
+                <div class="px-6 py-4">
+                    <button class="transition ease-in duration-700 bg-indigo-600 hover:bg-indigo-700 text-white font-bold font-bold w-full py-4 rounded">
+                        <a href="../static/tic-tac-toe/index.html"target="_blank">Live Demo</a>
+                    </button>
+                </div>
+            </div>
+            
+           
+        </div><!--end grid-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End -->
+         
+             <!-- Footer Start -->
+             <footer class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">    
+                <div class="container">
+                    <div class="grid grid-cols-12">
+                        <div class="col-span-12">
+                            <div class="py-[60px] px-0">
+                                <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
+                                    <div class="lg:col-span-7 md:col-span-12">
+                                        <a href="#" class="text-[22px] text-white font-bold uppercase focus:outline-none">
+                                            Tawanda Kanda
+                                        </a>
+                                        <p class="mt-6 text-gray-300">Fullstack web developer focused in building Web Applications that leads to the success of the overall product</p>
+                                        <ul class="list-none mt-6">
+                                            <li class="inline"><a href="../../../external.html?link=http://github.com/quess02" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-github" title="github"></i></a></li>
+                                            <li class="inline"><a href="../../../external.html?link=http://linkedin.com/quess02" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-linkedin" title="Linkedin"></i></a></li>
+                                            <li class="inline"><a href="../../../external.html?link=https://www.facebook.com/quessmusik02" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
+                                            <li class="inline"><a href="mailto:tkanda02@gmail.com" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
+                                        </ul><!--end icon-->
+                                    </div><!--end col-->
+                            
+                                    <div class="lg:col-span-2 md:col-span-4">
+                                        <h5 class="tracking-[1px] text-gray-100 font-semibold">Pages</h5>
+                                        <ul class="list-none footer-list mt-6">
+                                            <li><a href="#" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> About me</a></li>
+                                            <li class="mt-[10px]"><a href="#" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Projects</a></li>
+                                            <li class="mt-[10px]"><a href="#" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Contact</a></li>
+                                           
+                                        </ul>
+                                    </div><!--end col-->
+                            
+                                   
+        
+                                    <div class="lg:col-span-3 md:col-span-4">
+                                        <h5 class="tracking-[1px] text-gray-100 font-semibold">Contact</h5>
+                                        <ul class="list-none mt-6">
+                                            <li class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Tawanda Kanda</li>
+                                            <li class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Whatsapp: 77810155</li>
+                                            <li class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Address: P O BOX 601509</li>
+                                            <li class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out" >Gaborone West</li>
+                                        </ul>
+                                       
+                                        
+                                        
+                                    </div><!--end col-->
+                                </div><!--end grid-->
+                            </div><!--end col-->
+                        </div>
+                    </div><!--end grid-->
+                </div><!--end container-->
+    
+                <div class="py-[30px] px-0 border-t border-slate-800">
+                    <div class="container text-center">
+                        <div class="items-center">
+                            <div class="text-center">
+                                <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Developed by Tawanda Kanda.</p>
+                            </div>
+                        </div><!--end grid-->
+                    </div><!--end container-->
+                </div>
+            </footer><!--end footer-->
+            <!-- Footer End -->
+        </main>
+        
+    </div>
+    
+    <script src="../../assets/js/app.js"></script>
+    <script src="../../assets/js/easy_background.js"></script>
+    <script src="../../assets/js/plugins.init.js"></script>
+</body>
+</html>
